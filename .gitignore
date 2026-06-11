@@ -103,3 +103,5 @@ log.txt
 ehthumbs.db
 Thumbs.db
 *.bak
+
+data/
