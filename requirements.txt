@@ -4,3 +4,7 @@ chromadb
 openai
 requests
 python-dotenv
+langchain-core
+langchain-community
+langchain-openai
+langchain-chroma
