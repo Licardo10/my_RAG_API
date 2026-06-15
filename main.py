@@ -2,10 +2,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from RAG_chain import init_RAG_engine
 from agent_chain import build_agent
-from llm_client import LLM_client
-from tools import calculate_tool, run_calculator
 from config import DOCUMENT_PATH
-import json
+
 
 RAG_query = init_RAG_engine(DOCUMENT_PATH)
 agent_query = build_agent()
